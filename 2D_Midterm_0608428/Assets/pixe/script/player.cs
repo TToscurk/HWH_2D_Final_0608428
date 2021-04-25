@@ -102,7 +102,7 @@ public class player : MonoBehaviour
             coin++;
             aud.PlayOneShot(soundEat);
             Destroy(collision.gameObject);
-            textcoin.text = "糖果:" + coin;
+            textcoin.text = "candy:" + coin;
         }
     }
 }
